@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Xpert Repair - Appliance Repair in Houston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS лежит рядом с index.html, поэтому просто style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container header-inner">
+
+            <!-- ЛОГОТИП: index.html лежит в Static, а картинка в Static/images -->
+            <a href="#home" class="logo">
+                <img src="images/logo.png" alt="Xpert Repair Logo">
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="coupons.html">Coupons</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+18325551234" class="header-phone">(832) 707-2209</a>
+                <a href="tel:+18325551234" class="btn-call">Call Now</a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Open menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay">
+                <img src="images/logo.png" alt="Xpert Repair Logo" class="hero-main-logo">
+                <div class="container hero-grid">
+        
+                    <!-- ЛЕВАЯ ЧАСТЬ -->
+                    <div class="hero-left">
+                        
+                        <h1 class="hero-title">Delivering Reliable Service Across Greater Houston</h1>
+        
+                        <ul class="hero-points">
+                            <li>Same-Day Estimates</li>
+                            <li>1-Year Warranty on Parts and Labor</li>
+                            <li>No Trip Fee with Repair</li>
+                        </ul>
+        
+                        <a href="tel:+18327072209" class="hero-call-btn">
+                            (832) 707-2209
+                        </a>
+                    </div>
+        
+                    <!-- ПРАВАЯ ЧАСТЬ: Schedule Service -->
+                    <div class="hero-form-card">
+                        <h2>Schedule Service</h2>
+        
+                        <form class="service-form" action="#" method="post">
+                            <label>
+                                Name*
+                                <input type="text" name="name" required>
+                            </label>
+        
+                            <label>
+                                Phone*
+                                <input type="tel" name="phone" required>
+                            </label>
+        
+                            <label>
+                                Email*
+                                <input type="email" name="email" required>
+                            </label>
+        
+                            <label>
+                                Contact Method*
+                                <select name="contact_method" required>
+                                    <option value="">Select…</option>
+                                    <option value="phone">Phone</option>
+                                    <option value="email">Email</option>
+                                    <option value="text">Text</option>
+                                </select>
+                            </label>
+        
+                            <label>
+                                Services*
+                                <select name="service_type" required>
+                                    <option value="">Select…</option>
+                                    <option value="inventory">Appliance Inventory</option>
+                                    <option value="repair">Appliance Repair</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </label>
+        
+                            <label>
+                                Message
+                                <textarea name="message" rows="3"></textarea>
+                            </label>
+        
+                            <button type="submit" class="hero-form-btn">
+                                REQUEST SERVICE
+                            </button>
+                        </form>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+    </main>
+   
+
+        <!-- SERVICES SECTION -->
+<section class="services-section services">
+    <div class="container">
+
+        <div class="services-box">
+            <h2 class="services-title">
+                Quality Appliance Repair, Installation, &amp; More
+            </h2>
+
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="images/icons/Refrigeration.png" alt="">
+                    <p>Refrigeration</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Ice_Makers.png" alt="">
+                    <p>Ice Makers</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Microwaves.png" alt="">
+                    <p>Microwaves</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Washers.png" alt="">
+                    <p>Washers</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Dryer.png" alt="">
+                    <p>Dryers</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Install.png" alt="">
+                    <p>Install</p>
+                </div>
+            </div>
+
+            <!-- ФОТО БУДЕТ НИЖЕ -->
+            <div class="services-photos">
+                <img src="images/gallery/girl.jpg" alt="">
+                <img src="images/gallery/girl_1.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        </section>
+        <section id="why-us" class="why-lake-style">
+            <div class="container">
+        
+                <h2 class="why-title">Why Choose Xpert Repair?</h2>
+        
+                <div class="why-grid-lake">
+        
+                    <div class="why-item-lake">
+                        <h3>Extended Availability</h3>
+                        <p>We work around your schedule.<br>
+                            Mon–Fri: 7 AM – 7 PM<br>
+                            Sat: 8 AM – 5 PM<br>
+                            Sun: 10 AM – 2 PM</p>
+                        <div class="why-line"></div>
+                    </div>
+        
+                    <div class="why-item-lake">
+                        <h3>Commitment to Professional Excellence</h3>
+                        <p>We invest in continuous training so our technicians consistently meet and exceed industry standards.
+                        </p>
+                        <div class="why-line"></div>
+                    </div>
+        
+                    <div class="why-item-lake">
+                        <h3>Trustworthy Technicians</h3>
+                        <p>Each technician is background-checked and drug-tested to protect your home and your family.</p>
+                        <div class="why-line"></div>
+                    </div>
+        
+                    <div class="why-item-lake">
+                        <h3>Professionalism</h3>
+                        <p>We treat your home with care. Our technicians arrive clean, fully equipped, and leave your space
+                            exactly as they found it. Shoe covers available upon request.</p>
+                        <div class="why-line"></div>
+                    </div>
+        
+                    <div class="why-item-lake">
+                        <h3>Parts & Labor Warranty</h3>
+                        <p>We stand behind our work with reliable warranty coverage for both parts and labor.</p>
+                        <div class="why-line"></div>
+                    </div>
+        
+                    <div class="why-item-lake">
+                        <h3>A Little Extra</h3>
+                        <p>We're intelligent, reliable, neat, and punctual! Our customers love us.</p>
+                        <div class="why-stars">★★★★★</div>
+                        <div class="why-line"></div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </section>
+
+
+        <!-- REVIEWS SECTION -->
+        <section class="reviews-section">
+            <div class="container">
+        
+                <h2 class="reviews-title">What Our Customers Say</h2>
+                <p class="reviews-subtitle">
+                    Real feedback from homeowners across Greater Houston
+                </p>
+        
+                <div class="reviews-layout">
+        
+                    <!-- LEFT: PHOTO -->
+                    <div class="reviews-photo">
+                        <img src="images/reviews/review.jpg" alt="Happy customer">
+                    </div>
+        
+                    <!-- RIGHT: REVIEWS -->
+                    <div class="reviews-grid vertical">
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">
+                                Fast, professional, and honest service. The technician explained everything clearly and fixed
+                                our refrigerator the same day.
+                            </p>
+                            <span class="review-author">— Sarah M., Sugar Land</span>
+                        </div>
+        
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">
+                                They showed up on time, wore shoe covers, and left everything clean. Pricing was fair and
+                                transparent.
+                            </p>
+                            <span class="review-author">— Daniel K., Katy</span>
+                        </div>
+        
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">
+                                Very knowledgeable and respectful. No pressure, no upselling — just great service.
+                            </p>
+                            <span class="review-author">— Maria L., Houston</span>
+                        </div>
+
+                        <div class="reviews-media-cta">
+                            <h3>Want to share your experience?</h3>
+                            <p>Reviews help local families find a trustworthy technician. Thank you!</p>
+                        
+                            <div class="reviews-cta-actions">
+                                <a class="reviews-btn" href="#" target="_blank" rel="noopener">Leave a Google Review</a>
+                                <a class="reviews-btn-secondary" href="index.html#contact">Request Service</a>
+                            </div>
+                        </div>
+                    
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+<!-- Map Section -->
+        <section id="service-areas" class="service-areas-section">
+            <div class="container">
+                <h2 class="areas-title">Service Areas We Proudly Serve</h2>
+        
+                <div class="areas-grid">
+                    <div class="area-item">Houston</div>
+                    <div class="area-item">Katy</div>
+                    <div class="area-item">Fulshear</div>
+                    <div class="area-item">Richmond</div>
+                    <div class="area-item">Sugar Land</div>
+                    <div class="area-item">Cypress</div>
+                    <div class="area-item">The Woodlands</div>
+                    <div class="area-item">Spring</div>
+                </div>
+        
+                <div class="areas-map-wrapper hide-map-top">
+                    <iframe class="areas-map"
+                        src="https://www.google.com/maps/d/embed?mid=1J8Zl_L-rO4QucvfJcvhSSS-saIUMUO8&ehbc=2E312F" width="640"
+                        height="480" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    <section id="brands" class="brands-section">
+        <h2 class="brands-title">Brands We Work With</h2>
+    
+        <div class="brands-slider">
+            <div class="brands-track">
+                <img src="brands/Bosch.png" alt="Bosch">
+                <img src="brands/Samsung.png" alt="Samsung">
+                <img src="brands/LG.png" alt="LG">
+                <img src="brands/GE.png" alt="GE">
+    
+                <!-- duplicate -->
+                <img src="brands/Bosch.png" alt="Bosch">
+                <img src="brands/Samsung.png" alt="Samsung">
+                <img src="brands/LG.png" alt="LG">
+                <img src="brands/GE.png" alt="GE">
+            </div>
+        </div>
+    
+<footer class="footer-contact">
+    <div class="container footer-content">
+
+        <h3 class="footer-title">CONTACT US</h3>
+
+        <p class="footer-info">
+            Phone: <a href="tel:+18327072209">(832) 707-2209</a><br>
+            Email: <a href="mailto:xpertrepair@gmail.com">xpertrepair@gmail.com</a>
+        </p>
+
+        <p class="footer-note">
+            Have questions or need service? Get in touch with Xpert Repair — we’re here to help.
+        </p>
+
+        <div class="footer-copy">
+            © 2025 Xpert Appliance Repair. All rights reserved.
+        </div>
+
+    </div>
+</footer>
+ 
+
+</html>
