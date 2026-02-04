@@ -217,17 +217,19 @@ section {
     min-height: 100%;
 }
 
-
-/* HERO LOGO */
-.hero-logo {
-    max-width: 280px;
+/* Small logo inside HERO */
+.hero-badge-logo {
+    width: 140px;
     height: auto;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 0 16px 0;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
-    .hero-logo {
-        max-width: 200px;
+    .hero-badge-logo {
+        width: 110px;
+        margin: 0 auto 14px;
     }
 }
 
