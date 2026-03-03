@@ -8,6 +8,7 @@
 
     <!-- CSS лежит рядом с index.html, поэтому просто style.css -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -33,8 +34,8 @@
             </nav>
 
             <div class="header-actions">
-                <a href="tel:+18325551234" class="header-phone">(832) 707-2209</a>
-                <a href="tel:+18325551234" class="btn-call">Call Now</a>
+                <a href="tel:+13466555535" class="header-phone">(346) 655-5535</a>
+                <a href="tel:+13466555535" class="btn-call">Call Now</a>
             </div>
 
             <button class="menu-toggle" aria-label="Open menu">☰</button>
@@ -53,12 +54,11 @@
         
                         <ul class="hero-points">
                             <li>Same-Day Estimates</li>
-                            <li>1-Year Warranty on Parts and Labor</li>
                             <li>No Trip Fee with Repair</li>
                         </ul>
         
-                        <a href="tel:+18327072209" class="hero-call-btn">
-                            (832) 707-2209
+                        <a href="tel:+13466555535" class="hero-call-btn">
+                            (346) 655-5535
                         </a>
                     </div>
         
@@ -66,7 +66,8 @@
                     <div class="hero-form-card">
                         <h2>Schedule Service</h2>
         
-                        <form class="service-form" action="#" method="post">
+                        <form class="service-form" action="https://formspree.io/f/xeelyqal" method="POST">
+                            <input type="hidden" name="_subject" value="New Service Request - Xpert Repair">
                             <label>
                                 Name*
                                 <input type="text" name="name" required>
@@ -110,6 +111,7 @@
                             <button type="submit" class="hero-form-btn">
                                 REQUEST SERVICE
                             </button>
+                            <input type="hidden" name="_next" value="https://xpert.repair/thank-you.html">
                         </form>
                     </div>
         
@@ -152,6 +154,16 @@
                 <div class="service-item">
                     <img src="images/icons/Dryer.png" alt="">
                     <p>Dryers</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Dishwashers.png" alt="">
+                    <p>Dishwashers</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="images/icons/Stove.jpg" alt="">
+                    <p>Stove, Oven</p>
                 </div>
 
                 <div class="service-item">
@@ -336,8 +348,8 @@
         <h3 class="footer-title">CONTACT US</h3>
 
         <p class="footer-info">
-            Phone: <a href="tel:+18327072209">(832) 707-2209</a><br>
-            Email: <a href="mailto:xpertrepair@gmail.com">xpertrepair@gmail.com</a>
+            Phone: <a href="tel:+13466555535">(346) 655-5535</a><br>
+            Email: <a href="mailto:contact@xpert.repair">contact@xpert.repair</a>
         </p>
 
         <p class="footer-note">
@@ -345,7 +357,7 @@
         </p>
 
         <div class="footer-copy">
-            © 2025 Xpert Appliance Repair. All rights reserved.
+            © 2025 Xpert Repair. All rights reserved.
         </div>
 
     </div>
